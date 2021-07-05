@@ -77,6 +77,7 @@ html, body {
   }
   
   &.sidebar__button--last {
+    /* Нужно только в Firefox */
     padding-bottom: 112px;
   }
 }
@@ -262,7 +263,7 @@ html, body {
   /* TODO Здесь нужен случай для состояний --outgoing и --file одновременно*/
   
   &.chat__message--last {
-    /* Потому что :last-of-type не работает так, как хотелось бы */
+    /* Нужно только в Firefox */
     padding-bottom: 101px;
   }
 }
